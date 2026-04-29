@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# uv
+.venv/
+
+# Environments / secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Testing / linting
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ML artifacts
+wandb/
+mlruns/
+lightning_logs/
+tb_logs/
+runs/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# Data
+data/
+!data/README.md
+!data/.gitkeep
+
+# Geospatial / scientific outputs
+*.nc
+*.nc4
+*.hdf
+*.hdf5
+*.h5
+*.tif
+*.tiff
+*.grib
+*.grib2
+*.zarr/
+*.npy
+*.npz
+
+# Figures 
+figures/
+outputs/
+
+# OS
+Thumbs.db

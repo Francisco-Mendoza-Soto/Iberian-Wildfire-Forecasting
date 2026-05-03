@@ -6,6 +6,8 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "cartopy>=0.25.0",
+    "cdsapi>=0.7.7",
+    "dask[complete]>=2026.3.0",
     "matplotlib>=3.10.9",
     "netcdf4>=1.7.4",
     "numpy>=2.4.4",
@@ -29,3 +31,8 @@ torch = { index = "pytorch-cu130" }
 name = "pytorch-cu130"
 url = "https://download.pytorch.org/whl/cu130"
 explicit = true
+
+[tool.uv.workspace]
+members = [
+    "mydask",
+]

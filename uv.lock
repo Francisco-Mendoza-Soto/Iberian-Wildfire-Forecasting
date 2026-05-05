@@ -12,12 +12,6 @@ resolution-markers = [
     "python_full_version < '3.14' and sys_platform != 'emscripten' and sys_platform != 'win32'",
 ]
 
-[manifest]
-members = [
-    "iberian-wildfire-forecasting",
-    "mydask",
-]
-
 [[package]]
 name = "affine"
 version = "2.4.0"
@@ -1431,17 +1425,6 @@ sdist = { url = "https://files.pythonhosted.org/packages/6c/ce/a00c9b44f43c4620c
 wheels = [
     { url = "https://files.pythonhosted.org/packages/93/cf/be4e93afbfa0def2cd6fac9302071db0bd6d0617999ecbf53f92b9398de3/multiurl-0.3.7-py3-none-any.whl", hash = "sha256:054f42974064f103be0ed55b43f0c32fc435a47dc7353a9adaffa643b99fa380", size = 21524, upload-time = "2025-07-29T11:57:03.191Z" },
 ]
-
-[[package]]
-name = "mydask"
-version = "0.1.0"
-source = { virtual = "mydask" }
-dependencies = [
-    { name = "dask" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "dask", specifier = ">=2026.3.0" }]
 
 [[package]]
 name = "narwhals"
